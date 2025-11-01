@@ -2,7 +2,7 @@ name: Install cmake
 description: Clones cmake's repo, builds cmake and installs
 
 runs:
-  using: compose
+  using: composite
   steps:
     - name: Checkout cmake repository
       uses: actions/checkout@v5
